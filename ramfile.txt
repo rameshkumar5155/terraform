@@ -1,0 +1,32 @@
+udo docker run -dt --name c1 --network ramesh-network alpine sleep id
+
+c1- 1373bdad64bf8aa143f2fb7aae5fd315899a5b38a5a88d6c5d5f859ebc6a0e7b
+c3-435c45905d6713291772eb58dcb101d958823cb6bd97ab180dae31c5c74fec94
+
+
+bridge network ramnetwork
+
+d458a0c4bdaab31220a3794b68ec60a2e2c92c73fd79933e2c67ec30b3c23458
+
+con1--419edfb50660c5aaae92d0eb8d20273eeb797b15725b7f7caa085ac9db70c42d
+ con2-9f0d996d4fa7c0e30f37c9de9cfa1997150cb4d90079a9e1553dbc5fe8f838be
+sudo docker network create -d bridge  --subnet 10.0.0.1/24 ram-net
+
+
+sudo docker network create -d bridge --subnet 10.0.0.0/24 ram-net2
+
+sudo docker network create -d bridge --subnet 10.0.0.0/24 ram-net3
+sudo docker network create bridge --subnet 10.0.0.0/24 ram-net4
+sudo docker network create -d bridge subnet 10.0.0.0/24 ram-net
+sudo docker network create -d bridge --subnet 10.0.0.0/24 ram-net
+sudo docker network create -d bridge --subnet 10.0l0.0.24 ram-net
+sudo docker network create -d bridge --subnet 10.0.0.0/24 ram-net
+sudo docker run -dt --name c1 --network ram-net alpine sleep 1d
+
+
+
+    docker swarm join --token SWMTKN-1-1is20p52kp4c8uf8kbiunp5kdj6g66mfwcrxqt8mtkh9t7j7zo-86wjp9nn9hcqjmzg38nhwt86p 15.207.221.237:2377
+
+
+ docker swarm join --token SWMTKN-1-57j684c8vt3ccm2uo47q76nr70l2krtr7a8bij9vk9m2p5z8az-4vkc5byu7p47cuji9xz3z9dqx 15.207.221.237:2377
+
